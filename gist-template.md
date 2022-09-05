@@ -63,7 +63,8 @@ Quantifiers set the limits of the string that your regex matches by defining how
 The first quantifier is included in the first grouping construct, or subexpression `([a-z]+)`. This means the regex should match one or more of any alphabet character.
 
 **Matches**
-*  <br />
+* `<script`
+* `<body` <br />
 
 **Example**
 There are two quantifiers in the second subexpression `([^<]+)*`. The `+` means the regex will ignore one or more opening brackets AFTER the first one has occurred, and the `*` means this result could be found zero or more times.
